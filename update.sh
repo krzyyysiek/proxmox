@@ -20,3 +20,6 @@ df -h /
 
 echo
 echo "Done."
+echo
+echo "It is highly recommended to reboot your nodes afterwards"
+echo
