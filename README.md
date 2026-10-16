@@ -1,4 +1,4 @@
-# Proxmox Scripts of mine
+# Proxmox Scripts
 ## How to run
 ### use command below to copy and run the script
 ```text
