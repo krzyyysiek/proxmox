@@ -32,7 +32,7 @@ for container in "${containers[@]}"; do
     if pct exec "$vmid" -- sh -c '
         if command -v apt-get >/dev/null 2>&1; then
             export DEBIAN_FRONTEND=noninteractive
-            apt-get update && apt-get full-upgrade -y && apt-get autoremove -y && apt-get autoclean
+            apt-get update && apt-get full-upgrade -y && apt-get autoremove -y && apt-get autoclean && update
         elif command -v apk >/dev/null 2>&1; then
             apk update && apk upgrade
         elif command -v dnf >/dev/null 2>&1; then
